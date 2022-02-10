@@ -1,5 +1,6 @@
 let layer1 = document.querySelector('div.layer1')
 let layer2 = document.querySelector('div.layer2')
+let button = document.querySelector('button')
 
 function makeColor() {
   let h = Math.random() * 360 
@@ -21,3 +22,5 @@ function changeBg() {
 }
 
 changeBg()
+
+button.addEventListener('click', () => changeBg())

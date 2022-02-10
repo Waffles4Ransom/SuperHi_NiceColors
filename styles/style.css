@@ -4,10 +4,28 @@ div {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(45deg, red, green);
+  /* background-image: linear-gradient(45deg, red, green); */
 }
 
-div.layer2 {
-  mix-blend-mode: lighten;
-  background-image: linear-gradient(155deg, yellow, blue);
+/* div.layer2 { */
+  /* mix-blend-mode: lighten; */
+  /* background-image: linear-gradient(155deg, yellow, blue); */
+/* } */
+
+button {
+  position: fixed;
+  top: 2em;
+  left: 2em;
+
+  border:0.1em solid #000000;
+  border-radius: 0.14em;
+  text-decoration: none;
+  font-family:'Courier New';
+  font-weight: 400;
+  font-size: larger;
+}
+
+button:hover {
+  color: #FFFFFF;
+  background-color: #000000;
 }
